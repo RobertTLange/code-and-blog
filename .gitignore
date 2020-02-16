@@ -1,3 +1,6 @@
 __pycache__
 .DS_Store
 .ipynb_checkpoints
+data
+ARC
+03_*
