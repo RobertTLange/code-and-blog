@@ -3,3 +3,5 @@ __pycache__
 .ipynb_checkpoints
 data
 ARC
+08_backpropagation
+jax_evo_strategy

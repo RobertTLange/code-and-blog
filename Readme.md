@@ -6,6 +6,7 @@ In this repo I keep a record of small experiments toyed around with for [my blog
 
 | Date  | Post  | Code  |
 | ------ |:-------------:| -----:|
+| 12/20 | [Meta-Policy Gradients: A Survey](https://roberttlange.github.io/posts/2020/12/meta-policy-gradients/) | [Click](06_meta_policy_gradients/) |
 | 06/20 | [The Lottery Ticket Hypothesis: A Survey](https://roberttlange.github.io/posts/2020/06/lottery-ticket-hypothesis/) | [Click](05_lottery_tickets/) |
 | 04/20 | [Getting started with JAX (MLPs, CNNs & RNNs)](https://roberttlange.github.io/posts/2020/03/blog-post-10/) | [Click](04_jax_intro/) |
 | 03/20 | FOR.ai Pruning Technical Challenge | [Click](03_pruning/) |
