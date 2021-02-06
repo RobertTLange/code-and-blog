@@ -4,7 +4,6 @@ __pycache__
 data
 ARC
 08_backpropagation
-*.gif
 *.npy
 anim_generations.ipynb
 pendulum_log.pkl
