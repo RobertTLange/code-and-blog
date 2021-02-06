@@ -4,4 +4,8 @@ __pycache__
 data
 ARC
 08_backpropagation
-jax_evo_strategy
+*.gif
+*.npy
+anim_generations.ipynb
+pendulum_log.pkl
+blog_docs/
