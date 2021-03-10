@@ -1,15 +1,6 @@
-try:
-    import matplotlib.pyplot as plt
-except ModuleNotFoundError as err:
-    raise ModuleNotFoundError(f"{err}. You need to install `gym` "
-                              "to use the `evosax.visualize.viz_helpers` "
-                              "module.")
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-try:
-    import seaborn as sns
-except ModuleNotFoundError as err:
-    raise ModuleNotFoundError(f"{err}. You need to install `gym` "
-                              "to use the `evosax.visualize.animate_gym` module.")
 
 sns.set(context='poster', style='white', palette='Paired',
         font='sans-serif', font_scale=1.05, color_codes=True, rc=None)
