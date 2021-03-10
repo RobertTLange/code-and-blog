@@ -72,7 +72,7 @@ def update_p_c(y_w, params, memory):
     norm_p_sigma = jnp.linalg.norm(memory["p_sigma"])
     h_sigma_cond_left = norm_p_sigma / jnp.sqrt(
         1 - (1 - params["c_sigma"]) ** (2 * (memory["generation"] + 1)))
-    h_sigma_cond_right = (1.4 + 2 / (memory["mean"].shape[0] + 1)) * params["chi_n"]
+    h_sigma_cond_right = (1.4 + 2 / (memory["mean"].shape[0] + 1)) * params["chi_d"]
     h_sigma = 1.0 * (h_sigma_cond_left < h_sigma_cond_right)
     p_c = (1 - params["c_c"]) * memory["p_c"] + h_sigma * jnp.sqrt((1 -
           (1 - params["c_c"])**2) * params["mu_eff"]) * y_w
@@ -95,7 +95,7 @@ def update_covariance(y_k, h_sigma, C_2, params, memory):
 def update_sigma(norm_p_sigma, params, memory):
     """ Update stepsize sigma. """
     sigma = (memory["sigma"] * jnp.exp((params["c_sigma"] / params["d_sigma"])
-                                      * (norm_p_sigma / params["chi_n"] - 1)))
+                                      * (norm_p_sigma / params["chi_d"] - 1)))
     return sigma
 
 def run_cma_es(rng, fitness_fct, num_generations, num_params, sigma_init,
