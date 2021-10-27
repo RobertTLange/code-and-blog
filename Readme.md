@@ -6,6 +6,7 @@ In this repo I keep a record of small experiments toyed around with for [my blog
 
 | Date  | Post  | Code  |
 | ------ |:-------------:| -----:|
+| 08/21 | [`mle-logging`: A Lightweight Logger ](https://roberttlange.github.io/posts/2021/08/mle-logging/) | [Click](08_mle_logging/) |
 | 02/21 | [Evolving Neural Networks in JAX](https://roberttlange.github.io/posts/2021/02/cma-es-jax/) | [Click](07_neuroevolution/) |
 | 12/20 | [Meta-Policy Gradients: A Survey](https://roberttlange.github.io/posts/2020/12/meta-policy-gradients/) | [Click](06_meta_policy_gradients/) |
 | 06/20 | [The Lottery Ticket Hypothesis: A Survey](https://roberttlange.github.io/posts/2020/06/lottery-ticket-hypothesis/) | [Click](05_lottery_tickets/) |
