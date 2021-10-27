@@ -1,11 +1,12 @@
-# My mantra: 1st code. 2nd blog.
+# The Mantra: 1st code 🤖 - 2nd blog ✍️
 
-In this repo I keep a record of small experiments toyed around with for [my blog posts](https://roberttlange.github.io/year-archive/). Bigger pieces of code can be found in separate repositories. Write me a PM if there is something fishy.
+In this repo I keep a record of small experiments toyed around with for [my blog posts](https://roberttlange.github.io/year-archive/). Bigger pieces of code can be found in separate repositories. Write me a PM/raise an issue if there is something fishy.
 
-## Keeping track of things
+## Keeping Track of Things 📨
 
 | Date  | Post  | Code  |
 | ------ |:-------------:| -----:|
+| 10/21 | [`mle-hyperopt`: Hyperparameter Optimization ](https://roberttlange.github.io/posts/2021/10/mle-hyperopt/) | [Click](09_mle_hyperopt/) |
 | 08/21 | [`mle-logging`: A Lightweight Logger ](https://roberttlange.github.io/posts/2021/08/mle-logging/) | [Click](08_mle_logging/) |
 | 02/21 | [Evolving Neural Networks in JAX](https://roberttlange.github.io/posts/2021/02/cma-es-jax/) | [Click](07_neuroevolution/) |
 | 12/20 | [Meta-Policy Gradients: A Survey](https://roberttlange.github.io/posts/2020/12/meta-policy-gradients/) | [Click](06_meta_policy_gradients/) |
