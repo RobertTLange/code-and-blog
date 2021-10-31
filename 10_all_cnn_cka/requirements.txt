@@ -1,0 +1,8 @@
+flax
+optax
+jax
+mle-logging
+torch
+torchvision
+numpy
+matplotlib

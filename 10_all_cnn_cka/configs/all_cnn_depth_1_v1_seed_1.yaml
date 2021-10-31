@@ -1,0 +1,31 @@
+train_config:
+  seed_id: 1
+  max_norm: 2
+  lrate: 0.1
+  momentum: 0.9
+  nesterov: true
+  w_decay: 0.0001
+  use_augment: true
+  use_cutout: true
+  batch_size: 128
+  train_data_size: 50000
+  lrate_decay: 0.1
+  num_epochs: 350
+  decay_after_epochs: [200, 250, 300]
+
+log_config:
+  experiment_dir: 'experiments/all_cnn_depth_1_v1_seed_1'
+  time_to_track: ['num_updates', 'num_epochs']
+  what_to_track: ['train_loss', 'train_acc', 'test_loss', 'test_acc']
+  what_to_print: ['train_acc', 'test_acc']
+  model_type: 'jax'
+  print_every_k_updates: 1
+  ckpt_time_to_track: 'num_epochs'
+  save_every_k_ckpt: 5
+  verbose: true
+
+model_config:
+  num_classes: 10
+  dropout_input: 0.2
+  dropout_hidden: 0.5
+  depth: 1

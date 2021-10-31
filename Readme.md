@@ -6,6 +6,7 @@ In this repo I keep a record of small experiments toyed around with for [my blog
 
 | Date  | Post  | Code  |
 | ------ |:-------------:| -----:|
+| 10/21 | [All-CNN-C & Centered Kernel Alignment in JAX](https://roberttlange.github.io/posts/2021/10/all-cnn-c-cka/) | [Click](10_all_cnn_cka/) |
 | 10/21 | [`mle-hyperopt`: Hyperparameter Optimization ](https://roberttlange.github.io/posts/2021/10/mle-hyperopt/) | [Click](09_mle_hyperopt/) |
 | 08/21 | [`mle-logging`: A Lightweight Logger ](https://roberttlange.github.io/posts/2021/08/mle-logging/) | [Click](08_mle_logging/) |
 | 02/21 | [Evolving Neural Networks in JAX](https://roberttlange.github.io/posts/2021/02/cma-es-jax/) | [Click](07_neuroevolution/) |
