@@ -6,6 +6,7 @@ In this repo I keep a record of small experiments toyed around with for [my blog
 
 | Date  | Post  | Code  |
 | ------ |:-------------:| -----:|
+| 11/21 | [`mle-scheduler`: Cluster/Cloud Jobs ](https://roberttlange.github.io/posts/2021/11/mle-scheduler/) | [Click](11_mle_scheduler/) |
 | 10/21 | [All-CNN-C & Centered Kernel Alignment in JAX](https://roberttlange.github.io/posts/2021/10/all-cnn-c-cka/) | [Click](10_all_cnn_cka/) |
 | 10/21 | [`mle-hyperopt`: Hyperparameter Optimization ](https://roberttlange.github.io/posts/2021/10/mle-hyperopt/) | [Click](09_mle_hyperopt/) |
 | 08/21 | [`mle-logging`: A Lightweight Logger ](https://roberttlange.github.io/posts/2021/08/mle-logging/) | [Click](08_mle_logging/) |
